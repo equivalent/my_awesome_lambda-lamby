@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
+docker-compose run \
+  my-awesome-lambda \
+  ./bin/rails console
