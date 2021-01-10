@@ -78,6 +78,8 @@
     <p class="version">
       <strong>Rails version:</strong> <%= Rails.version %><br />
       <strong>Ruby version:</strong> <%= RUBY_DESCRIPTION %>
+      <strong>TEST_IF_ENV_VAR_WORK</strong> <%= ENV['TEST_IF_ENV_VAR_WORK'] || "nope" %>
+
     </p>
   </section>
 </div>
