@@ -39,3 +39,8 @@ yarn-debug.log*
 !.env.development
 !.env.test
 /vendor/bundle-dev
+
+
+# RVM
+.ruby-version
+.ruby-gemset
