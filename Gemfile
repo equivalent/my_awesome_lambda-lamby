@@ -9,7 +9,6 @@ gem 'lamby', require: false
 #gem 'webpacker'
 
 group :assets do
-  gem 'mini_racer', platforms: :ruby # for those without Node
   gem 'sass-rails'
   gem 'bootstrap', '~> 5.0.0.beta1'
   gem 'stimulus-rails'
@@ -17,6 +16,7 @@ group :assets do
 end
 
 group :development do
+  gem 'mini_racer', platforms: :ruby # for those without Node
   gem 'web-console'
 end
 
