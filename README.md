@@ -15,6 +15,13 @@ serverless Ruby on Rails. How cool is that !?
 This repo is a test project where I test limitations of what is possible
 and what is not.
 
+
+## It's alive !
+
+Direct AWS API Gateway link: https://1m1x0sga74.execute-api.eu-west-1.amazonaws.com/production
+
+CloudFlare DNS in front of it under custom domain: https://ror.serverless-ruby.org/
+
 ## Code desicions: 
 
 * I'm loading app JS via Webpacker (StimulusJS controllers)
