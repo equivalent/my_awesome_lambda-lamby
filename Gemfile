@@ -12,6 +12,7 @@ group :assets do
   gem 'mini_racer', platforms: :ruby # for those without Node
   gem 'sass-rails'
   gem 'bootstrap', '~> 5.0.0.beta1'
+  gem 'stimulus-rails'
   #gem 'jquery-rails'
 end
 
