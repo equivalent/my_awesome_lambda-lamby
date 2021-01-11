@@ -13,6 +13,6 @@ export default class extends Controller {
   static targets = [ "message" ]
 
   connect() {
-    this.messageTarget.style.color = "red"
+    this.messageTarget.style.color = "blue"
   }
 }
