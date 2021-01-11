@@ -39,7 +39,7 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
-  config.cache_store = :redis_cache_store, { url: ENV['REDIS_URL'] }
+  #config.cache_store = :redis_cache_store, { url: ENV['REDIS_URL'] }
 
 
   # Raises error for missing translations.
