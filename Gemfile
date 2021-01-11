@@ -8,6 +8,8 @@ gem 'jbuilder'
 gem 'lamby', require: false
 gem 'webpacker'
 
+gem 'dynamoid', require: false
+
 group :assets do
   gem 'sass-rails'
 end

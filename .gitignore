@@ -36,7 +36,7 @@ yarn-debug.log*
 /.aws-sam
 /.lamby
 .env.*
-!.env.development
+!.env.development.example
 !.env.test
 /vendor/bundle-dev
 
