@@ -51,6 +51,19 @@
       <strong>Note:</strong> links (should) get loaded async via Turbo frames from /links
     </div>
 
+     <h3>Sessions</h3>
+
+     <%= turbo_frame_tag 'sessions' do %>
+       <% if session[:user_id] %>
+         <div class="alert alert-success" role="alert">
+           you are signed in as ID<%= session[:user_id] %>
+         </div>
+         <%=  link_to 'Sign out', sign_out_sessions_path %>
+       <% else %>
+         <%= button_to 'Sign in', sessions_path, method: :post, class: 'btn btn-success' %>
+       <% end %>
+     <% end %>
+
   </section>
 </div>
 
