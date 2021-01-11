@@ -4,7 +4,7 @@
 Ipossible is here. You can now run Ruby on Rails applications on [AWS Lambda](https://aws.amazon.com/lambda/) 
 
 All thanks to mr [Ken Collins](https://twitter.com/metaskills) and his
-briliant project [Lamby](https://www.youtube.com/watch?v=fn17nojYa-I&t=2000s)
+briliant project [Lamby](https://lamby.custominktech.com/)
 
 
 
