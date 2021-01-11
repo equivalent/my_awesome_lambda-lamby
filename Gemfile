@@ -4,11 +4,17 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'rails', '~> 6.0.3'
 
 gem 'dotenv-rails', require: true
-gem 'jbuilder'
 gem 'lamby', require: false
-gem 'webpacker'
 
+# dynamo DB
 gem 'dynamoid', require: false
+
+# Redis caching
+gem 'redis'
+gem 'hiredis'
+
+# FE stuff
+gem 'webpacker'
 
 group :assets do
   gem 'sass-rails'

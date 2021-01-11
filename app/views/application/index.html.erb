@@ -23,6 +23,23 @@
         <li><%= link_to link.title, link.url %></li>
       <% end %>
     </ul>
+
+    <div class="alert alert-primary" role="alert">
+      <strong>Note:</strong> links are loaded directly when page is served
+    </div>
+
+    <p>This is <code>Time.now</code> <%= Time.now %></p>
+    <h3>Redis based Rails cache</h3>
+    <p>and this is cached <code>Time.now</code> <%= Rails.cache.fetch("time_test") { Time.now } %>  (<code>Rails.cache.fetch("time_test") { Time.now }</code>)</p>
+
+
+     <h3>Turbo Frames from <%= link_to 'hotwire', 'https://hotwire.dev/' %> </h3>
+     <%= turbo_frame_tag 'links', src: links_path %>
+
+    <div class="alert alert-primary" role="alert">
+      <strong>Note:</strong> links (should) get loaded async via Turbo frames from /links
+    </div>
+
   </section>
 </div>
 
