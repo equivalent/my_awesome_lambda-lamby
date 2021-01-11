@@ -15,8 +15,14 @@
       <strong>Rails version:</strong> <%= Rails.version %><br />
       <strong>Ruby version:</strong> <%= RUBY_DESCRIPTION %>
       <strong>TEST_IF_ENV_VAR_WORK</strong> <%= ENV['TEST_IF_ENV_VAR_WORK'] || "nope" %>
-
     </p>
+
+    <h3>Items stored in DynamoDB loaded by <%= link_to 'Dynamoid gem', 'https://github.com/Dynamoid/dynamoid'  %></h3>
+    <ul>
+      <% Link.all.each do |link| %>
+        <li><%= link_to link.title, link.url %></li>
+      <% end %>
+    </ul>
   </section>
 </div>
 
