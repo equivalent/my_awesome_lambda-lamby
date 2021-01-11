@@ -18,8 +18,7 @@ and what is not.
 
 ## It's alive !
 
-
->>>  https://ror.serverless-ruby.org/ <<<
+hosted at: https://ror.serverless-ruby.org/
 
 > I'm using Cloudfront as a DNS for custom domain for `https`
 
