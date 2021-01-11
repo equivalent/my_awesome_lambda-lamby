@@ -16,3 +16,4 @@ import Turbo from "@hotwired/turbo"
 
 
 import "controllers"
+import '../stylesheets/application'

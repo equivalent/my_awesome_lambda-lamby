@@ -17,6 +17,17 @@
       <strong>TEST_IF_ENV_VAR_WORK</strong> <%= ENV['TEST_IF_ENV_VAR_WORK'] || "nope" %>
     </p>
 
+    <h3>Webpacker + StimulusJS test</h3>
+    <div data-controller="hello">
+      <div data-target="hello.message">
+        If you see this message in color BLUE then StimulusJS is loaded via Webpacker/Webpack compiled on the fly
+      </div>
+    </div>
+ 
+
+    <h3>Webpack based custom CSS test</h3>
+    <p class="custom-class">This text should be green and bold as the CSS is loaded from Webpack</p>
+
     <h3>Items stored in DynamoDB loaded by <%= link_to 'Dynamoid gem', 'https://github.com/Dynamoid/dynamoid'  %></h3>
     <ul>
       <% Link.all.each do |link| %>
