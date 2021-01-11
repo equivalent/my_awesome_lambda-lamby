@@ -18,9 +18,13 @@ and what is not.
 
 ## It's alive !
 
-Direct AWS API Gateway link: https://1m1x0sga74.execute-api.eu-west-1.amazonaws.com/production
 
-CloudFlare DNS in front of it under custom domain: https://ror.serverless-ruby.org/
+>>>  https://ror.serverless-ruby.org/ <<<
+
+> I'm using Cloudfront as a DNS for custom domain for `https`
+
+Direct AWS API Gateway link: https://1m1x0sga74.execute-api.eu-west-1.amazonaws.com/production (JS will not load as it's `/production`)
+
 
 ## Code desicions: 
 
